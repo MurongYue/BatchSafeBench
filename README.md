@@ -99,6 +99,4 @@ pip install -r requirements.txt
 4. **Download Data**:
    The full training and testing datasets can be found on [Hugging Face](https://huggingface.co/datasets/MurongYue/BatchSafeBench). Download and place them in the appropriate directories.
 
-## Usage
-
 
