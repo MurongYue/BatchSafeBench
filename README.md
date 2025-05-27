@@ -73,4 +73,32 @@ Optional arguments:
 
 The evaluation results are saved in JSON format with timestamps for easy tracking and analysis.
 
+## Setup
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/yourusername/BatchSafeBench.git
+cd BatchSafeBench
+```
+
+2. **Install dependencies**:
+```bash
+pip install -r requirements.txt
+```
+
+3. **Environment Setup**:
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` and add your API keys:
+     - `OPENAI_API_KEY`: Your OpenAI API key
+     - `ANTHROPIC_API_KEY`: Your Anthropic API key
+     - `AZURE_OPENAI_API_KEY`: Your Azure OpenAI API key (if using Azure)
+
+4. **Download Data**:
+   The full training and testing datasets can be found on [Hugging Face](https://huggingface.co/datasets/MurongYue/BatchSafeBench). Download and place them in the appropriate directories.
+
+## Usage
+
 
