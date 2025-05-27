@@ -9,12 +9,6 @@ import os
 import time
 from openai import AzureOpenAI
 from tqdm import tqdm
-from azure.ai.inference import ChatCompletionsClient
-from azure.core.credentials import AzureKeyCredential
-
-# openai_client = OpenAI.client(
-#     api_key=os.getenv('OPENAI_API_KEY')
-# )
 
 def save_json(data, file_name):
     try:

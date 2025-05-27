@@ -205,8 +205,8 @@ def train_model(train_data, model_path, num_classes, num_epochs=1, batch_size=32
         print(f"Time taken: {epoch_time:.2f} seconds")
         print("-" * 50)
 
-    cls_token_states_path = "/scratch/myue/safety_saved/npy/cls_token_states_v9.npy"
-    labels_path = "/scratch/myue/safety_saved/npy/labels_v9.npy"
+    cls_token_states_path = "./src/data/npy/cls_token_states_v9.npy"
+    labels_path = "./src/data/npy/labels_v9.npy"
     np.save(cls_token_states_path, np.array(cls_token_states_list))
     np.save(labels_path, np.array(labels_list))
     print(f"Saved cls_token_state embeddings to {cls_token_states_path}")
